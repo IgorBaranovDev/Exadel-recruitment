@@ -17,6 +17,7 @@ export const DashBoard: React.FunctionComponent = () => {
 				const internshipsObject = mapInternships(data);
 				setInternships(internshipsObject);
 			} catch (e) {
+				// eslint-disable-next-line no-console
 				console.error(e);
 			}
 		};

@@ -69,6 +69,7 @@ export const fetchListAppointments = async (
 			method: 'get',
 		});
 		const listAppointments = data.map(
+			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 			({ id, firstName, lastName, recruiterId, startDate, endDate }: any) => ({
 				id,
 				title: `${firstName} ${lastName}`,
