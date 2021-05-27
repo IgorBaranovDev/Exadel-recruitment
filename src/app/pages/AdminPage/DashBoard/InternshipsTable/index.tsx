@@ -29,6 +29,7 @@ export const InternshipsTable: React.FunctionComponent<InternshipsTableProps> = 
 				role="none"
 				className="details"
 				onClick={() => {
+					// eslint-disable-next-line no-console
 					console.log({
 						...internships[internshipName],
 						name: internshipName,

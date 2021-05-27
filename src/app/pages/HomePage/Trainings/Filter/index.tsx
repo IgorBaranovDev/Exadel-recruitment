@@ -86,6 +86,7 @@ export const Filter: React.FunctionComponent = () => {
 				const specialities = await fetchSpecialities();
 				setSpecializationItems(specialities);
 			} catch (e) {
+				// eslint-disable-next-line no-console
 				console.log('Not speciallities');
 			}
 		};

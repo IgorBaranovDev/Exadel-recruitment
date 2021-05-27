@@ -39,7 +39,7 @@ export const Profile: React.FunctionComponent = () => {
 			const data = await getProfile(userId);
 			setUser(data);
 			const { interviews } = data;
-			console.log(data);
+
 			if (interviews.length === 0) {
 				setFeedbackInfo(feedbackDefault);
 			} else if (interviews.length === 1) {

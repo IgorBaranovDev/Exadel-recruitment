@@ -179,6 +179,7 @@ export const CandidateTable: React.FunctionComponent = () => {
 				}));
 				setCandidates(users);
 			} catch (e) {
+				// eslint-disable-next-line no-console
 				console.log(e.message);
 			}
 		};
