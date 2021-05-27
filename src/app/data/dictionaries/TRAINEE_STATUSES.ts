@@ -2,6 +2,7 @@ interface ITraineeStatuses {
 	[key: string]: string;
 }
 export const TRAINEE_STATUSES: ITraineeStatuses = {
+	RECRUITER_INTERVIEW_FEEDBACK: 'Recruiter Interview Feedback',
 	UNDER_CONSIDERATION: 'Pending',
 	RECRUITER_INTERVIEW: 'Recruiter Interview',
 	TECHNICAL_SPECIALIST_INTERVIEW: 'Technical Interview',
